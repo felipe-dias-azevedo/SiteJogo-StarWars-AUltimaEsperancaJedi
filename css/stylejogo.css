@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(68,180,227);
+    color: #1BB8E7;
 }
 .btnvoceaceita {
     width: auto;
@@ -62,7 +62,7 @@ header {
     cursor: pointer;
 }
 .btnvoceaceita button:hover {
-    box-shadow: 0 0 25px rgb(68,180,227);
+    box-shadow: 0 0 25px #1BB8E7;
     transform: scale(0.95);
 }
 /* BUTTON INICIAR */
@@ -114,7 +114,7 @@ section {
 #vida1 {
     width: 100%;
     height: 60%;
-    background-color: rgb(68,180,227);
+    background-color: #1BB8E7;
     border: 4px #f2f2f2 solid;
     float: left;
 }

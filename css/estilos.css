@@ -303,7 +303,7 @@ a {
 }
 .corpo4 form:hover {
     transform: scale(1.03);
-    box-shadow: 0 0 35px rgb(68,180,227);
+    box-shadow: 0 0 35px #1BB8E7;
 }
 .corpo4 form label {
     margin-top: 18px;
@@ -322,10 +322,10 @@ a {
     transition: 0.3s;
 }
 .corpo4 input:hover {
-    box-shadow: 0 0 5px rgb(68,180,227);
+    box-shadow: 0 0 5px #1BB8E7;
 }
 .corpo4 input:focus {
-    box-shadow: 0 0 15px rgb(68,180,227);
+    box-shadow: 0 0 15px #1BB8E7;
     transform: scale(0.97);
 }
 .corpo4 button {
@@ -343,15 +343,15 @@ a {
 }
 .corpo4 button:hover,
 .corpo4 button:focus {
-    box-shadow: 0 0 20px rgb(68,180,227);
+    box-shadow: 0 0 20px #1BB8E7;
     transform: scale(0.95);
 }
 .corpo4 button:active {
-    box-shadow: 0 0 10px rgb(68,180,227);
+    box-shadow: 0 0 10px #1BB8E7;
     transform: scale(0.9);
 }
 .corpo4 a {
-    color: rgb(68,180,227);
+    color: #1BB8E7;
     text-decoration: none;
     margin: 14px;
     outline: none;
