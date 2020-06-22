@@ -1,0 +1,75 @@
+.cabecalho {
+    height: 9%;
+    background: rgba(0,0,0,0.9);
+    background: linear-gradient(0deg, rgba(112, 8, 8, 0.92) 0%, rgba(194, 38, 38, 0.98) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+.cabecalho a:hover {
+    color: #f2f2f2;
+}
+.navbar {
+    height: 100%;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.title {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title h1 {
+    margin-left: 15px;
+    padding-top: 5px;
+    color: black;
+    transition: 1s;
+}
+/*.title h1:hover{
+    color: white;
+}*/
+
+.title img {
+    height: 3em;
+    transition: 1s;
+}
+/*
+.title img:hover {
+
+}
+*/
+/* rodape do site */
+
+.rodape {
+    height: 4%;
+    background: rgb(27,27,27);
+    background: linear-gradient(0deg, rgba(27,27,27,1) 0%, rgba(50,50,50,1) 100%);
+    color: #e2e2e2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.5em;
+    padding: 1em;
+}

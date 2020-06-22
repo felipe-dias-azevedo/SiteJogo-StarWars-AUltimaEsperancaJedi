@@ -1,0 +1,416 @@
+/* https://css-tricks.com/snippets/css/typewriter-effect/ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: SWfont;
+    src: url(../fonts/news-gothic-std/NewsGothicStd.otf);
+}
+@font-face {
+    font-family: SWfontbold;
+    src: url(../fonts/news-gothic-std/NewsGothicStd-Bold.otf);
+}
+body {
+    font-size: 18px;
+    font-family: SWfontbold;
+}
+h1 {
+    font-size: 1.8em;
+    font-family: SWfontbold;
+}
+label {
+    font-family: SWfontbold;
+}
+a {
+    font-family: SWfontbold;
+}
+.header1 {
+    background: url(../imgs/yavin-upscaled-edited.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header2 {
+    background: url(../imgs/galaxy.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.header-comecar {
+    background: url(../imgs/lightspeed.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+/* Corpo do Index.html */
+.corpo1 {
+    height: 87%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Corpo do comecar-Jogo.html e LOGIN */
+.corpo2 {
+    height: 87%;
+    background-color: rgba(12,13,12,0.35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-corpo {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.corpo1 h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 10px;
+}
+.corpo1 a {
+    margin-top: 12px;
+    padding: 20px;
+    background-color: #0e0e0e;
+    color: #f2f2f2;
+    text-decoration: none;
+    border-radius: 12px;
+    outline: none;
+    border: 0;
+    font-size: 1.1em;
+    box-shadow: 0 0 10px #000;
+    transition: 0.3s;
+}
+.corpo1 a:hover,
+.corpo1 a:focus {
+    box-shadow: 0 0 15px #da1616;
+    transform: scale(0.98);
+}
+.corpo1 a:active {
+    box-shadow: 0 0 10px #da1616;
+    transform: scale(0.92);
+}
+
+/* COMEÇAR-JOGO */
+#group-corpo {
+    height: 200px;
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.7);
+    border: 10px #e2e2e2 solid;
+    color: #e2e2e2;
+    border-radius: 8px;
+    line-height: 3em;
+    transition: 0.9s;
+}
+#group-corpo:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 30px #da1616;
+}
+
+#group-corpo a {
+    color: #da1616;
+}
+#group-corpo a {
+    color: #da1616;
+    text-decoration: none;
+    transition: 0.1s;
+}
+#group-corpo a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* PARTE DO SITE: fundamentos/regras */
+
+.corpo3 {
+    height: 87%;
+    background-color: rgba(12,13,12,0.4);
+    color: rgb(254,210,2);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.corpo3-titulo {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.corpo3-corpo {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.caixa-texto {
+    height: 100%;
+    width: 70%;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.caixa-img {
+    width: 30%;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa-img img {
+    height: 100%;
+    width: auto;
+    border: 10px #000 solid;
+    transition: 1.5s;
+}
+.caixa-img img:hover {
+    box-shadow: 0 0 20px #da1616;
+    transform: scale(1.03);
+}
+.corpo3 h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.corpo3 p {
+    text-align: justify;
+    font-size: 1.4em;
+    line-height: 1.1em;
+    margin: 0.5em;
+    text-indent: 2em;
+    transition: 0.6s;
+}
+
+/* LOGIN */
+.corpo2 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+    height: auto;
+    width: 550px;
+    font-size: 1.7em;
+    border: 10px #e2e2e2 solid;
+    color: #f2f2f2;
+    border-radius: 8px;
+    transition: 1s;
+}
+.corpo2 form:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px #da1616;
+}
+.corpo2 form label {
+    margin-top: 30px;
+}
+.corpo2 form input {
+    padding: 8px;
+    font-size: 20px;
+    width: 75%;
+    outline: none;
+    margin: 5px;
+    background-color: #0e0e0e;
+    border: 4px #e2e2e2 solid;
+    box-shadow: 0 0 8px #000;
+    color: white;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.corpo2 form input:hover {
+    box-shadow: 0 0 10px #da1616;
+}
+.corpo2 form input:focus {
+    box-shadow: 0 0 20px #da1616;
+    transform: scale(0.98);
+}
+.corpo2 form button {
+    margin-top: 20px;
+    padding: 14px;
+    background-color: #0e0e0e;
+    color: #f2f2f2;
+    border: 2px #fff solid;
+    border-radius: 12px;
+    outline: none;
+    font-size: 22px;
+    box-shadow: 0 0 10px #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.corpo2 form button:hover,
+.corpo2 form button:focus {
+    box-shadow: 0 0 20px #da1616;
+    transform: scale(0.95);
+}
+.corpo2 form button:active {
+    box-shadow: 0 0 10px #da1616;
+    transform: scale(0.9);
+}
+.corpo2 form a {
+    color: #da1616;
+    text-decoration: none;
+    margin: 26px;
+    outline: none;
+}
+.corpo2 form a:hover,
+.corpo2 form a:focus {
+    text-decoration: underline;
+}
+
+/* CADASTRO */
+.header3 {
+    background: url(../imgs/hoth-upscaled.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.corpo4 {
+    height: 87%;
+    background: rgba(0,0,0,0.1);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.corpo4 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+    height: auto;
+    width: 530px;
+    font-size: 1.7em;
+    border: 10px rgb(250,250,250) solid;
+    color: #f2f2f2;
+    border-radius: 20px;
+    transition: 1s;
+}
+.corpo4 form:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgb(68,180,227);
+}
+.corpo4 form label {
+    margin-top: 18px;
+}
+.corpo4 input {
+    padding: 8px;
+    font-size: 20px;
+    width: 75%;
+    outline: none;
+    margin: 5px;
+    background-color: #e2e2e2;
+    border: 4px #0e0e0e solid;
+    box-shadow: 0 0 8px #000;
+    color: black;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.corpo4 input:hover {
+    box-shadow: 0 0 5px rgb(68,180,227);
+}
+.corpo4 input:focus {
+    box-shadow: 0 0 15px rgb(68,180,227);
+    transform: scale(0.97);
+}
+.corpo4 button {
+    margin: 14px;
+    padding: 14px;
+    background-color: #0e0e0e;
+    color: #f2f2f2;
+    border: 2px #fff solid;
+    border-radius: 12px;
+    outline: none;
+    font-size: 22px;
+    box-shadow: 0 0 10px #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.corpo4 button:hover,
+.corpo4 button:focus {
+    box-shadow: 0 0 20px rgb(68,180,227);
+    transform: scale(0.95);
+}
+.corpo4 button:active {
+    box-shadow: 0 0 10px rgb(68,180,227);
+    transform: scale(0.9);
+}
+.corpo4 a {
+    color: rgb(68,180,227);
+    text-decoration: none;
+    margin: 14px;
+    outline: none;
+}
+.corpo4 a:hover,
+.corpo4 a:focus {
+    text-decoration: underline;
+}
+
+/* SOBRE */
+.header4 {
+    background: url(../imgs/bespin-upscaled-edited2.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.corpo5 {
+    height: 87%;
+    background-color: rgba(12,13,12,0.4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-sobre {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.corpo-sobre {
+    height: 80%;
+    width: 80%;
+} 
+figure {
+    float: right;
+}
+figure img {
+    height: 450px;
+    width: auto;
+    border-radius: 50%;
+    margin: 25px;
+    border: 8px #0e0e0e solid;
+    transition: 1s;
+}
+figure img:hover {
+    box-shadow: 0 0 15px #fff;
+    transform: scale(1.03);
+}
+.corpo5 h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.corpo5 p {
+    text-align: justify;
+    font-size: 1.4em;
+    line-height: 1em;
+    margin: 0.5em;
+    text-indent: 2em;
+    transition: 0.6s;
+}

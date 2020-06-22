@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: SWfont;
+    src: url(../fonts/news-gothic-std/NewsGothicStd.otf);
+}
+@font-face {
+    font-family: SWfontbold;
+    src: url(../fonts/news-gothic-std/NewsGothicStd-Bold.otf);
+}
+body {
+    background: url(../imgs/galaxy.jpg) no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: rgb(254,210,2);
+    font-family: SWfont;
+}
+header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#historiaJogo {
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    padding: 100px;
+    line-height: 50px;
+
+}
+.voceaceita {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(68,180,227);
+}
+.btnvoceaceita {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnvoceaceita button {
+    margin-top: 20px;
+    padding: 20px;
+    width: auto;
+    background-color: #0e0e0e;
+    color: #f2f2f2;
+    border: 2px #fff solid;
+    border-radius: 12px;
+    outline: none;
+    font-size: 24px;
+    box-shadow: 0 0 10px #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btnvoceaceita button:hover {
+    box-shadow: 0 0 25px rgb(68,180,227);
+    transform: scale(0.95);
+}
+/* BUTTON INICIAR */
+.btn-inicio {
+    margin-top: 20px;
+    padding: 14px;
+    background-color: #0e0e0e;
+    color: #f2f2f2;
+    border: 2px #fff solid;
+    border-radius: 12px;
+    outline: none;
+    font-size: 22px;
+    box-shadow: 0 0 10px #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn-inicio:hover,
+.btn-inicio:focus {
+    box-shadow: 0 0 25px #da1616;
+    transform: scale(0.95);
+}
+.btn-inicio:active {
+    box-shadow: 0 0 15px #da1616;
+    transform: scale(0.9);
+}
+
+/* ESTILOS DAS BATALHAS */
+section {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+/* .topo {
+    height: ;
+} */
+.vidas {
+    padding: 20px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.vidas h1 {
+    margin: 30px;
+    color: white;
+    font-family: SWfontbold;
+}
+#vida1 {
+    width: 100%;
+    height: 60%;
+    background-color: rgb(68,180,227);
+    border: 4px #f2f2f2 solid;
+    float: left;
+}
+.vidaespaco {
+    width: 0%;
+    height: 60%;
+    background-color: #9c9c9c;
+    border-top: 4px #fff solid;
+    border-right: 4px #fff solid;
+    border-bottom: 4px #fff solid;
+    float: left;
+    display: none;
+}
+
+#vida2 {
+    width: 100%;
+    height: 60%;
+    background-color: #da1616;
+    border: 4px #f2f2f2 solid;
+    float: left;
+}
+
+.botaogolpe {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnGolpeVader {
+    margin-top: 20px;
+    padding: 22px;
+    background-color: #0e0e0e;
+    color: #f2f2f2;
+    border: 2px #fff solid;
+    border-radius: 12px;
+    outline: none;
+    font-size: 30px;
+    box-shadow: 0 0 10px #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btnGolpeVader:hover,
+.btnGolpeVader:focus {
+    box-shadow: 0 0 15px #f2f2f2;
+    transform: scale(0.95);
+}
+.btnGolpeVader:active {
+    box-shadow: 0 0 10px #f2f2f2;
+    transform: scale(0.9);
+}
